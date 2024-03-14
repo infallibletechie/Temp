@@ -3,6 +3,10 @@
     const params = new URLSearchParams(
       window.location.search
     );
+    console.log(
+      'params are',
+      JSON.stringify( params )
+    );
     let varEmailId = 
         params.has( 'emailId' ) ?
         params.get( 'emailId' ) : 
