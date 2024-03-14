@@ -10,7 +10,7 @@
     let varEmailId = 
         params.has( 'emailId' ) ?
         params.get( 'emailId' ) : 
-        ''Email Id not passed';
+        'Email Id not passed';
     console.log(
         'Email Id is',
         varEmailId
