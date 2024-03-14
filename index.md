@@ -8,7 +8,7 @@
         params.get( 'emailId' ) : 
         ''Email Id not passed';
     console.log(
-        'Language is',
+        'Email Id is',
         varEmailId
     );
     document.getElementById( 'emailStr' ).innerHTML = varEmailId;
