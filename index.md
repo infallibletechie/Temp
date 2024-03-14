@@ -6,7 +6,7 @@
     );
     console.log(
       'params are',
-      JSON.stringify( params )
+      params.toString()
     );
     let varEmailId = 
         params.has( 'emailId' ) ?
@@ -14,8 +14,8 @@
         'Email Id not passed';
     console.log(
         'Email Id is',
-        varEmailId
+        varEmailId.toString()
     );
-    document.getElementById( 'emailStr' ).innerHTML = varEmailId;
+    document.getElementById( 'emailStr' ).innerHTML = varEmailId.toString();
   </script>
 </html>
