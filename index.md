@@ -8,14 +8,17 @@
       'params are',
       params.toString()
     );
-    let varEmailId = 
+    let strEmailId = 
         params.has( 'emailId' ) ?
         params.get( 'emailId' ) : 
         'Email Id not passed';
     console.log(
         'Email Id is',
-        varEmailId.toString()
+        strEmailId.replace( 
+    		' ', 
+    		'+' 
+    	)
     );
-    document.getElementById( 'emailStr' ).innerHTML = varEmailId.toString();
+    document.getElementById( 'emailStr' ).innerHTML = strEmailId.toString();
   </script>
 </html>
