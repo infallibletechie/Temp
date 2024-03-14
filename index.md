@@ -1,4 +1,5 @@
 <html>
+  Email Id is <p id="emailStr"></p>
   <script>
     const params = new URLSearchParams(
       window.location.search
@@ -17,5 +18,4 @@
     );
     document.getElementById( 'emailStr' ).innerHTML = varEmailId;
   </script>
-  Email Id is <p id="emailStr"></p>
 </html>
