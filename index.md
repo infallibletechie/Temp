@@ -18,7 +18,7 @@
 			src="https://infallibletechie2-dev-ed--c.develop.vf.force.com/resource/1714752960000/SampleMusic" 
 			type="audio/mpeg">
     </audio>	
-	<button onclick=playAudio()>
+	<button onclick="playAudio()">
 		Play Audio
 	</button>
 </html>
